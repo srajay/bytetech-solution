@@ -1,0 +1,21 @@
+.project-cat {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  justify-content: center;
+  column-gap: 20px;
+}
+.project-cat > button {
+  width: 10%;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  border: 2px solid #00bf63;
+  color: #00bf63;
+  background-color: transparent;
+  cursor: pointer;
+}
+.project-cat > button.active {
+  color: #eee;
+  background-color: #00bf63;
+}

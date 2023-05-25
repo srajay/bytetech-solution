@@ -1,0 +1,35 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px 100px 20px 100px;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+}
+.project-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+  /* background-color: aqua; */
+}
+.project-left > h1 {
+  margin-top: 0;
+  font-size: 60px;
+  color: #fff;
+}
+.project-left > h1 > span {
+  margin-left: 30px;
+
+  color: chartreuse;
+}
+.project-right {
+  width: 600px;
+}
+.project-right > p {
+  text-align: left;
+  color: #d6d6d6;
+  line-height: 25px;
+}
